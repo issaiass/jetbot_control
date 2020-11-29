@@ -2,8 +2,8 @@ gazebo_ros_control:
   pid_gains:
      #back_caster_joint: {p: 0.0, i: 0.0, d: 0.0}
      #front_caster_joint: {p: 0.0, i: 0.0, d: 0.0}
-     lt_wheel_joint: {p: 1.5, i: 0.1, d: 0.01} 
-     rt_wheel_joint: {p: 1.5, i: 0.1, d: 0.01}
+     lt_wheel_joint: {p: 1.5, i: 0.0, d: 0.00} 
+     rt_wheel_joint: {p: 1.5, i: 0.0, d: 0.00}
      # 2, 0.001, 0
      # 1.5, 0, 0
      # 1.5, 0.1, 0.01
