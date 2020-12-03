@@ -46,13 +46,13 @@ jetbot_velocity_controller:
   # Velocity and acceleration limits for the robot
   linear:
     x:
-      has_velocity_limits    : true  # PID[1.5,0,0]
-      max_velocity           : 0.1   # 0.1, 0.3, 0.25, 0.5 m/s
+      has_velocity_limits    : true
+      max_velocity           : 0.1  # m/s
       has_acceleration_limits: true
-      max_acceleration       : 0.05  # 0.05, 0.06, 0.06, 0.3 m/s^2
+      max_acceleration       : 0.05 # m/s^2
   angular:
     z:
       has_velocity_limits    : true
-      max_velocity           : 2.0   # 2.0, 2.0, 2.0, 2.0 rad/s
+      max_velocity           : 2.0  # rad/s
       has_acceleration_limits: true
-      max_acceleration       : 1.57  # 0.6, 0.8, 0.8, .6 rad/s^2
+      max_acceleration       : 0.6  # rad/s^2
